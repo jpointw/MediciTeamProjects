@@ -77,5 +77,6 @@ public class VehicleControlable : Controlable
             cameraArm.rotation = Quaternion.Euler(x, camAngle.y + input.x, camAngle.z);
         }
     }
+    
 }
 
